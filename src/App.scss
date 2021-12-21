@@ -1,0 +1,71 @@
+@import 'variables.scss';
+
+
+.App {
+  text-align: center;
+}
+.header{
+  background-color: $bg_color;
+}
+.tabs{
+  color: $color;
+  font-size: 15px;
+  text-align: center;
+}
+.button-hndl{
+  width: 80%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.cont{
+  width: $width;
+  height: $height;
+  border:$border;
+}
+.btn {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  background: rgb(199, 102, 23);
+  border: none;
+&:hover {
+    background: rgb(236, 36, 103);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color:$primary-color;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:$secondary_color;
+}
+h1{
+  color:$primary-color;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
