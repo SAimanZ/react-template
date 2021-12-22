@@ -1,7 +1,8 @@
 import React from 'react';
 
 import './App.scss';
-import Button from './Button';
+
+import { Main } from './components/Main';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
 function App() {
@@ -11,8 +12,9 @@ function App() {
       
   
     </div>
+    <Main/>
   <Footer/>
-          <Button /> 
+          
           <Header /> 
     </>
   );
