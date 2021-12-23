@@ -10,22 +10,39 @@
   
 }
 .BACK{
-  background-image: url(./images/banner.png);
-  width: 33%;
-  background-size: contain;
+  background-image: url("./images/banner.png"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+  // background-image: url(./images/banner.png), linear-gradient(rgb(106 66 186 / 71%), rgb(117 172 172 / 78%));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
   border: 7px solid #f8f9fa;
+
+}
+.main{
+  height: 500px;
 }
 .BACK h2{
   text-align: center;
   margin-top: 10%;
-  color: rgb(235, 22, 153);
+  color: #b7cbe0;
   font-weight: bolder;
-  font-size: 18px;
+ 
+}
+.font{
+  
+    text-align: center;
+    font-size: 28px;
+
 }
 .BACK1{
-  background-image: url(./images/background.jpg);
- 
-  background-size: contain;
+  // background-image: url("./images/banner.png"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  
+  background-image: url("./images/background.jpg"),linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  background-blend-mode: overlay;
+ height: 300px;
+  background-size: cover;
+  background-position: center;
   border: 7px solid #f8f9fa; 
 }
 .BACK1 h1{
@@ -34,17 +51,37 @@
   color: rgb(240, 229, 236);
   
 }
+.rowheight{
+  height: 200px;
+}
 .BACK2{
-  background-image: url(./images/about.jpg);
- width: 50%;
-  background-size: contain;
+  
+  background-image: url("./images/about.jpg"),linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
   border: 7px solid #f8f9fa; 
 }
+.style{
+  
+  text-align: center;
+
+  color: rgb(240, 229, 236);
+}
 .BACK3{
-  background-image: url(./images/basketball.png);
- width: 50%;
+  background-image: url("./images/basketball.png"),linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  background-blend-mode: overlay;
+  background-position: center;
  
-  background-size: contain;
+  background-size: cover;
+  border: 7px solid #f8f9fa; 
+}
+.BACK5{
+  background-image: url("./images/.png"),linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  background-blend-mode: overlay;
+  background-position: center;
+ 
+  background-size: cover;
   border: 7px solid #f8f9fa; 
 }
 .tabs{
